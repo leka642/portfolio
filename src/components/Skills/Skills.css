@@ -1,0 +1,43 @@
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust minmax as needed */
+  gap: 1em;
+  list-style: none;
+  padding: 0;
+}
+
+/* For larger screens, force a layout closer to two lines */
+@media (min-width: 768px) { /* Adjust the breakpoint if needed */
+  .skills__list {
+    grid-template-columns: repeat(6, minmax(100px, 1fr)); /* Try 6 columns */
+  }
+}
+
+.skills__logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  border-radius: 5px;
+  background-color: var(--clr-bg-alt);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.skills__logo-item:hover {
+  transform: translateY(-3px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.skills__logo {
+  font-size: 4em;
+  margin-bottom: 0.3em;
+  transition: color 0.3s ease-in-out;
+}
+
+.skills__logo-name {
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--clr-fg-alt);
+}
