@@ -9,11 +9,12 @@ const Projects = () => {
       image: `${process.env.PUBLIC_URL}/images/hotel.png`,
       description:
       "A fully responsive hotel website designed to provide a seamless user experience across all devices. This project focuses on showcasing the hotel's offerings, amenities, and facilitating easy booking for potential guests.",
-      stack: ['HTML', 'React'],
+      stack: ['HTML', 'React', "Chakra UI"],
       sourceCode: 'https://github.com',
       livePreview: 'https://leka642.github.io/React-Hotel-Project/',
 
     },
+
     {
       name: 'Project 2',
      image: `${process.env.PUBLIC_URL}/images/portfolio.png`,
