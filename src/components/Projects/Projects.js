@@ -11,7 +11,7 @@ const Projects = () => {
       "A fully responsive hotel website designed to provide a seamless user experience across all devices. This project focuses on showcasing the hotel's offerings, amenities, and facilitating easy booking for potential guests.",
       stack: ['HTML', 'React'],
       sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
+      livePreview: 'https://leka642.github.io/React-Hotel-Project/',
 
     },
     {
