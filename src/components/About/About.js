@@ -15,7 +15,7 @@ const About = () => {
       </p>
 
       <div className="about__contact center">
-        <a href="">
+        <a href="file:///C:/Users/lekas/OneDrive/Documents/Leka%20Resume%202025.pdf">
           <span type="button" className="btn btn--outline">
           Resume
           </span>

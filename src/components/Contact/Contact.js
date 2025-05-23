@@ -3,7 +3,7 @@ import './Contact.css';
 const Contact = () => {
   // Contact data (moved from portfolio.js)
   const contactData = {
-    email: 'johnsmith@mail.com',
+    email: 'lekasreesree@gmail.com',
   };
 
   if (!contactData.email) return null;
